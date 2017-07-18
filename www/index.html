@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+    <!--
+  * Please see the included README.md file for license terms and conditions.
+  -->
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="galleria/galleria.classic.css">
+
+        <link rel="stylesheet" type="text/css" href="simplex/css/simplex.min.css" class="uib-framework-theme">
+        <meta charset="UTF-8">
+        <title>Blank App Designer Cordova Web App Project Template</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <!--
+  * The "meta viewport" tag (below) helps your app size appropriately to a device's ideal viewport.
+  * Note that Windows device viewports work better when initialized using the @viewport CSS rule.
+  * For a quick overview of "meta viewport" and @viewport, see this article:
+  *   http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag
+  * To see how it works, try your app on a real device with and without a "meta viewport" tag.
+  * Additional useful references include:
+  *   http://www.quirksmode.org/mobile/viewports.html
+  *   http://www.quirksmode.org/mobile/metaviewport/devices.html
+  *   https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariHTMLRef/Articles/MetaTags.html
+-->
+
+        <!-- <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1"> -->
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1, maximum-scale=2"> -->
+
+        <style>
+            /* following three (cascaded) are equivalent to above three meta viewport statements */
+            /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html */
+            /* see http://dev.w3.org/csswg/css-device-adapt/ */
+                @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+                @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+                /*@-ms-viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }   @viewport { user-zoom: zoom ; min-zoom: 100% ; max-zoom: 200% ; }*/
+        </style>
+
+        <link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="css/index_main.less.css" class="main-less">
+
+        <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work below -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+
+        <!-- Recommended location for your JavaScript libraries -->
+        <!-- These library references (below) are just examples to give you the general idea... -->
+        <!-- <script src="lib/mc/hammer.js"></script> -->
+        <!-- <script src="lib/ft/fastclick.js"></script> -->
+
+        <!--
+  * cordova.js is a phantom lib for "Cordova HTML5 web app," it does nothing in a "Standard HTML5 web app"
+  * Seeing a "Failed to load resource: net::ERR_FILE_NOT_FOUND" message caused by this "cordova.js" script?
+  * The cordova.js script is required if you convert your "Standard HTML5" project into a "Cordova" project.
+  * You can safely ignore the error or comment out this line if you will not be developing a Cordova app.
+-->
+        <script src="cordova.js" id="xdkJScordova_"></script>
+
+        <script src="js/app.js"></script>
+        <!-- for your event code, see README and file comments for details -->
+        <script src="js/init-app.js"></script>
+        <!-- for your init code, see README and file comments for details -->
+        <script src="xdk/init-dev.js"></script>
+        <!-- normalizes device and document ready events, see file for details -->
+        <script type="application/javascript" src="lib/jquery.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria-1.3.6.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria.classic.min.js"></script>
+        <script type="application/javascript" src="galleria/galleria-startup.js"></script>
+        <script type="application/javascript" src="marginal/marginal-position.min.js"></script>
+        <script type="application/javascript" src="js/index_user_scripts.js"></script>
+        <script type="application/javascript" src="xdk/ad/bs_subpage.js"></script>
+        <script type="application/javascript" src="https://www.google.com/jsapi"></script>
+        <script type="application/javascript" src="chart/chart.js"></script>
+        <script type="application/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+        <script type="application/javascript" src="google_maps/google_maps.js"></script>
+        <script type="application/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <!-- IMPORTANT: Do not include a weinre script tag as part of your release builds! -->
+        <!-- Place your remote debugging (weinre) script URL from the Test tab here, if it does not work above -->
+        <!-- <script src="http://debug-software.intel.com/target/target-script-min.js#insertabiglongfunkynumberfromthexdkstesttab"></script> -->
+        <div class="upage mainBG1 bground" id="mainpage">
+
+            <div class="upage-outer">
+                <div class="upage-content ac0 content-area vertical-col left" id="page_79_48">
+
+                    <div class="grid grid-pad urow uib_row_1 row-height-1" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_1 col-0" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_1 scale-image d-margins" data-uib="media/img" data-ver="0">
+                                    <figure class="figure-align">
+                                        <img src="images/Cordovaapp.png">
+
+                                    </figure>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+
+                        <span class="uib_shim"></span>
+                    </div>
+
+                    <div class="grid grid-pad urow uib_row_2 row-height-2" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_3 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <button class="btn widget uib_w_2 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-user button-icon-left" data-position="left"></i>About Us</button>
+                                <button class="btn widget uib_w_3 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-signal button-icon-left" data-position="left"></i>Google Chart</button>
+                                <button class="btn widget uib_w_4 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-play-circle button-icon-left" data-position="left"></i>Video</button>
+                                <button class="btn widget uib_w_5 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-align-left button-icon-left" data-position="left"></i>Form</button>
+
+                                <button class="btn widget uib_w_6 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="el el-phone button-icon-left" data-position="left"></i> Call Us</button>
+
+                                <button class="btn widget uib_w_7 d-margins btn-warning" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-map-marker button-icon-left" data-position="left"></i>Locate As</button>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal outer-element uib_w_25" data-uib="twitter%20bootstrap/modal" data-ver="1" data-backdrop="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button class="close" data-dismiss="modal">x</button>
+                            <h4 class="modal-title">Hai!</h4>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="col uib_col_11 single-col" data-uib="layout/col" data-ver="0">
+                                <div class="widget-container content-area vertical-col">
+                                    <div class="tarea widget uib_w_26 d-margins" data-uib="media/text" data-ver="0" name="uib_w_26">
+                                        <div class="widget-container left-receptacle"></div>
+                                        <div class="widget-container right-receptacle"></div>
+                                        <div class="text-container">
+                                            <p>Apa khabar?</p>
+                                        </div>
+                                    </div>
+                                    <span class="uib_shim"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button data-dismiss="modal" class="btn btn-default" type="button">close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="upage hidden" id="Gogle">
+            <div class="upage-outer">
+                <div class="uib-header header-bg container-group inner-element uib_w_12" data-uib="layout/header" data-ver="0">
+                    <h2>Chart</h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_13 d-margins white btn-link" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-chevron-left" data-position="icon only"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                </div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_45_48">
+                    <div class="grid grid-pad urow uib_row_5 row-height-5" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_6 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_16 charts-size d-margins" data-uib="media/chart" data-ver="0" data-chart-width="300" data-query-string="select A,B" id="my_chart" data-chart-type="Pie" data-chart-height="300" data-url="https://docs.google.com/spreadsheets/d/1AR3nAlNseJRAJnaJuF2_-fBk4KtUVXazOrmaseJLTOE/edit?usp=sharing"></div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+                <div class="uib-footer uib-footer-fixed footer-bg container-group inner-element uib_w_14" data-uib="layout/footer" data-ver="0">
+                    <h2></h2>
+                    <div class="widget-container wrapping-col single-centered">
+                        <button class="btn widget uib_w_15 d-margins white btn-link" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-home" data-position="icon only"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col left"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="upage hidden" id="about">
+            <div class="upage-outer">
+                <div class="uib-header header-bg container-group inner-element uib_w_8" data-uib="layout/header" data-ver="0">
+                    <h2>About Us</h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_9 d-margins btn-link white" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-chevron-left" data-position="icon only"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col right">
+                        <button class="btn widget uib_w_10 d-margins white btn-link" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-th-list" data-position="icon only"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_46_78">
+                    <div class="grid grid-pad urow uib_row_3 row-height-3" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_4 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="tarea widget uib_w_23 d-margins" data-uib="media/text" data-ver="0" name="uib_w_23">
+                                    <div class="widget-container left-receptacle"></div>
+                                    <div class="widget-container right-receptacle"></div>
+                                    <div class="text-container">
+                                        <p>Novel selalu menjadi media baca terbaik yang banyak disukai orang lain. Cerita yang bagus dan alur yang mantap selalu menjadi ciri khas dari sebuah novel. Tak jarang, kata kata indah novel yang menginspirasi banyak
+                                            hadir di dalam sebuah novel.</p>
+
+                                        <p>Lewat setiap kata indah, novel mampu mempengaruhi si pembaca dengan cerita seru dan kata kata terpilih. Novel juga jadi gambaran hidup si pembaca. Beberapa akan dikutip dan menjadi sumber inspirasi bagi hidup si
+                                            pembaca.
+                                        </p>
+                                    </div>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+                <div class="uib-footer uib-footer-fixed footer-bg container-group inner-element uib_w_11" data-uib="layout/footer" data-ver="0">
+                    <h2></h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                </div>
+            </div>
+        </div>
+        <div class="upage hidden" id="Video">
+            <div class="upage-outer">
+                <div class="uib-header header-bg container-group inner-element uib_w_17" data-uib="layout/header" data-ver="0">
+                    <h2>Video</h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_18 d-margins btn-link white" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-chevron-left" data-position="icon only"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                </div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_37_96">
+                    <div class="grid grid-pad urow uib_row_6 row-height-6" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_7 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="embed-video widget uib_w_19 d-margins" data-uib="media/youtube" data-ver="0">
+                                    <iframe src="http://www.youtube.com/embed/rryxZjqLtNs?loop=1&amp;wmode=transparent">
+                                    </iframe>
+                                </div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+
+                    <div class="grid grid-pad urow uib_row_8 row-height-8" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_9 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_24 widget-container content-area vertical-col uib-card d-margins section-dimension-24 cpad-0" data-uib="layout/card" data-ver="0"></div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="upage hidden" id="Locateus">
+            <div class="upage-outer">
+                <div class="uib-header header-bg container-group inner-element uib_w_20" data-uib="layout/header" data-ver="0">
+                    <h2>Our Office</h2>
+                    <div class="widget-container wrapping-col single-centered"></div>
+                    <div class="widget-container content-area horiz-area wrapping-col left">
+                        <button class="btn widget uib_w_21 d-margins btn-link white" data-uib="twitter%20bootstrap/button" data-ver="1"><i class="glyphicon glyphicon-chevron-left" data-position="icon only"></i>
+                        </button>
+                    </div>
+                    <div class="widget-container content-area horiz-area wrapping-col right"></div>
+                </div>
+                <div class="upage-content ac0 content-area vertical-col left" id="page_33_19">
+                    <div class="grid grid-pad urow uib_row_7 row-height-7" data-uib="layout/row" data-ver="0">
+                        <div class="col uib_col_8 col-0_12-12" data-uib="layout/col" data-ver="0">
+                            <div class="widget-container content-area vertical-col">
+                                <div class="widget uib_w_22 maps-size d-margins" data-uib="media/google_maps" data-ver="0" data-rpath="null" data-zoom="8" data-center-latitude="3.236725" data-center-longitude="101.6917783"></div>
+                                <span class="uib_shim"></span>
+                            </div>
+                        </div>
+                        <span class="uib_shim"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
