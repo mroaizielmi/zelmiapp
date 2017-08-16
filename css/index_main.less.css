@@ -774,7 +774,7 @@ label:empty {
 }
 @media all and (min-width: 768px) {
   .row-height-15 > .col > .content-area {
-    min-height: 168px;
+    min-height: 78px;
   }
 }
 @media all and (min-width: 768px) {
@@ -817,5 +817,23 @@ label:empty {
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
+  }
+}
+.uib_row_15:not(.cright) > .col {
+  padding-right: 2px;
+}
+.uib_row_15.cright > .col {
+  padding-left: 2px;
+}
+@media all {
+  .col-0_12-12 {
+    width: auto;
+    float: none !important;
+  }
+  .urow:not(.cright) > .col-0_12-12 {
+    padding-right: 0px !important;
+  }
+  .urow.cright > .col-0_12-12 {
+    padding-left: 0px !important;
   }
 }
