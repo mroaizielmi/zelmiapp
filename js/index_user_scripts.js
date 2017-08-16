@@ -77,23 +77,23 @@
     $(document).on("click", ".uib_w_6", function(evt)
     {
          /*global activate_page */
-         activate_page("#cordova"); 
-         return false;
-    });
-    
-        /* button  On Sistem */
-    $(document).on("click", ".uib_w_19", function(evt)
-    {
-         /*global activate_page */
          activate_page("#sistemcordova"); 
          return false;
     });
     
-        /* button  Off Sistem */
-    $(document).on("click", ".uib_w_24", function(evt)
+        /* button  info */
+    $(document).on("click", ".uib_w_21", function(evt)
+    {
+        alert("Sistem cordova bergerak aktif 24jam secara automatik");
+        /* your code goes here */ 
+         return false;
+    });
+    
+        /* button  .uib_w_22 */
+    $(document).on("click", ".uib_w_22", function(evt)
     {
          /*global activate_page */
-         activate_page("#cordova"); 
+         activate_page("#dashboard"); 
          return false;
     });
     
@@ -105,8 +105,25 @@
          return false;
     });
     
+        /* button  .uib_w_29 */
+    $(document).on("click", ".uib_w_29", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#dashboard"); 
+         return false;
+    });
+    
         /* button  Bayaran */
-    $(document).on("click", ".uib_w_28", function(evt)
+    
+    
+        /* button  Ranking */
+    
+    
+        /* button  Info Bank */
+    
+    
+        /* button  Bayaran */
+    $(document).on("click", ".uib_w_26", function(evt)
     {
          /*global activate_page */
          activate_page("#bayaran"); 
@@ -114,7 +131,7 @@
     });
     
         /* button  Ranking */
-    $(document).on("click", ".uib_w_29", function(evt)
+    $(document).on("click", ".uib_w_27", function(evt)
     {
          /*global activate_page */
          activate_page("#ranking"); 
@@ -122,10 +139,69 @@
     });
     
         /* button  Info Bank */
-    $(document).on("click", ".uib_w_30", function(evt)
+    $(document).on("click", ".uib_w_28", function(evt)
     {
          /*global activate_page */
          activate_page("#infobank"); 
+         return false;
+    });
+    
+        /* button  .uib_w_33 */
+    $(document).on("click", ".uib_w_33", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#pendapatan"); 
+         return false;
+    });
+    
+        /* button  info */
+    $(document).on("click", ".uib_w_34", function(evt)
+    {
+     alert("segala bayaran payslip anda akan di update dalam sistem bayaran ini");   
+        /* your code goes here */ 
+         return false;
+    });
+    
+        /* button  .uib_w_38 */
+    $(document).on("click", ".uib_w_38", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#pendapatan"); 
+         return false;
+    });
+    
+        /* button  info */
+    $(document).on("click", ".uib_w_39", function(evt)
+    {
+     alert("Berfungsi untuk anda melihat up to date ranking anda. Bonus ranking akan di berikan setiap setahun sekali");
+        /* your code goes here */ 
+         return false;
+    });
+    
+        /* button  .uib_w_43 */
+    $(document).on("click", ".uib_w_43", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#pendapatan"); 
+         return false;
+    });
+    
+        /* button  info */
+    $(document).on("click", ".uib_w_44", function(evt)
+    {
+    alert("Segala butiran bank anda perlu di isi untuk memudahkan kami membuat pembayaran ke dalam akaun bank anda. atau pun anda boleh terus whatsapp ke 011-21137801");    
+        /* your code goes here */ 
+         return false;
+    });
+    
+        /* button  .uib_w_48 */
+    
+    
+        /* button  .uib_w_48 */
+    $(document).on("click", ".uib_w_48", function(evt)
+    {
+         /*global activate_page */
+         activate_page("#dashboard"); 
          return false;
     });
     
@@ -137,147 +213,10 @@
          return false;
     });
     
-        /* button  Off Sistem */
-    
-    
-        /* button  Off Sistem */
-    $(document).on("click", ".uib_w_47", function(evt)
+        /* button  info */
+    $(document).on("click", ".uib_w_49", function(evt)
     {
-         /*global activate_page */
-         activate_page("#cordova"); 
-         return false;
-    });
-    
-        /* button  .uib_w_51 */
-    $(document).on("click", ".uib_w_51", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#mainpage"); 
-         return false;
-    });
-    
-        /* button  .uib_w_52 */
-    $(document).on("click", ".uib_w_52", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#dashboard"); 
-         return false;
-    });
-    
-        /* button  .uib_w_53 */
-    $(document).on("click", ".uib_w_53", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#dashboard"); 
-         return false;
-    });
-    
-        /* button  Button */
-    $(document).on("click", ".uib_w_54", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#dashboard"); 
-         return false;
-    });
-    
-        /* button  Button */
-    
-    
-        /* button  Button */
-    
-    
-        /* button  .uib_w_57 */
-    
-    
-        /* button  .uib_w_57 */
-    
-    
-        /* button  .uib_w_57 */
-    $(document).on("click", ".uib_w_57", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#pendapatan"); 
-         return false;
-    });
-    
-        /* button  .uib_w_56 */
-    $(document).on("click", ".uib_w_56", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#pendapatan"); 
-         return false;
-    });
-    
-        /* button  .uib_w_55 */
-    $(document).on("click", ".uib_w_55", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#pendapatan"); 
-         return false;
-    });
-    
-        /* button  Button */
-    $(document).on("click", ".uib_w_58", function(evt)
-    {
-         /*global activate_page */
-         activate_page("#dashboard"); 
-         return false;
-    });
-    
-        /* button  #send */
-    $(document).on("click", "#send", function(evt)
-    {
-   
-        /* your code goes here */ 
-         return false;
-    });
-    
-        /* button  Info */
-    $(document).on("click", ".uib_w_61", function(evt)
-    {
-        	
-alert("segala bayaran payslip anda akan di update dalam sistem bayaran ini");
-
-        /* your code goes here */ 
-         return false;
-    });
-    
-        /* button  Info */
-    $(document).on("click", ".uib_w_62", function(evt)
-    {
-        	
-alert("Berfungsi untuk anda melihat up to date ranking anda. Bonus ranking akan di berikan setiap setahun sekali");
-
-        /* your code goes here */ 
-         return false;
-    });
-    
-        /* button  Info */
-    $(document).on("click", ".uib_w_63", function(evt)
-    {
-        	
-alert("Segala butiran bank anda perlu di isi untuk memudahkan kami membuat pembayaran ke dalam akaun bank anda. atau pun anda boleh terus whatsapp ke 011-21137801");
-
-        /* your code goes here */ 
-         return false;
-    });
-    
-        /* button  Info */
-    $(document).on("click", ".uib_w_64", function(evt)
-    {
-        	
-alert("Jika anda ada idea baru atau ada satu impian untuk memiliki sebuah aplikasi android atau ios. Boleh beri idea anda di sini. Kami akan cuba merialisasikan impian anda");
-
-        /* your code goes here */ 
-         return false;
-    });
-    
-        /* button  Info */
-    $(document).on("click", ".uib_w_65", function(evt)
-    {
-        	
-alert("Sila tekan button on sistem dan anda hanya perlu membiarkan sistem cordova bergerak aktif");
-
+    alert("Jika anda ada idea baru atau ada satu impian untuk memiliki sebuah aplikasi android atau ios. Boleh beri idea anda di sini. Kami akan cuba merialisasikan impian anda");    
         /* your code goes here */ 
          return false;
     });
